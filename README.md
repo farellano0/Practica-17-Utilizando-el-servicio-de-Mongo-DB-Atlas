@@ -3,7 +3,7 @@ Sigue los pasos que se indican para utilizar el servicio de Mongo DB Atlas. Como
 
 [![Alt text](https://img.youtube.com/vi/Imwk0HtEuGY/0.jpg)](https://www.youtube.com/watch?v=Imwk0HtEuGY)
 
-Utilizar el siguiente código:
+**Utilizar el siguiente código:**
 
 *const mongoose = require('mongoose');*
 
