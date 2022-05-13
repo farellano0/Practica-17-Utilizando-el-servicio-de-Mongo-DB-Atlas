@@ -4,17 +4,29 @@ Sigue los pasos que se indican para utilizar el servicio de Mongo DB Atlas. Como
 [![Alt text](https://img.youtube.com/vi/Imwk0HtEuGY/0.jpg)](https://www.youtube.com/watch?v=Imwk0HtEuGY)
 
 Utilizar el siguiente código:
+
 *const mongoose = require('mongoose');*
+
 *mongoose.connect(*
+
 *`tuCadenaDeConexion`,*
+
 *{*
+
 *useNewUrlParser: true,*
+
 *useUnifiedTopology: true*
+
 *}*
+
 *);*
 
 *const db = mongoose.connection;*
+
 *db.on("error", console.error.bind(console, "connection error: "));*
+
 *db.once("open", function () {*
+
 *console.log("Connected successfully");*
+
 *});*
